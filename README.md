@@ -20,7 +20,7 @@ This application evaluates how well a resume matches a job description by comput
 
 ## 🧠 Architecture
 
-![Resume–JD Analyzer Architecture](screenshots/arc.png)
+![Resume–JD Analyzer Architecture](screenshots/architecture.png)
 
 This system follows a **Retrieval-Augmented Generation (RAG)** pipeline:
 
