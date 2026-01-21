@@ -35,6 +35,53 @@ This system follows a **Retrieval-Augmented Generation (RAG)** pipeline:
 
 
 ---
+## 📸 Application Screenshots
+
+### 🔹 Resume & Job Description Input
+![Resume and JD Input](screenshots/SS1.png)
+
+### 🔹 ATS Score & Skill Matching
+![ATS Score and Skills](screenshots/SS2.png)
+
+### 🔹 Resume Suggestions & Best Job Role
+![Suggestions and Best Job Role](screenshots/SS3.png)
+
+---
+
+## 📂 Project Structure
+
+```text
+Resume-JD_analyzer-RAG-GenAI/
+│
+├── app.py
+│   └── Streamlit application for Resume & JD analysis
+│
+├── ingest_jobs.py
+│   └── Script to ingest job descriptions and build FAISS vector store
+│
+├── requirements.txt
+│   └── Python dependencies required to run the project
+│
+├── data/
+│   └── jobs.csv
+│       └── Real-world job descriptions dataset
+│
+├── screenshots/
+│   ├── SS1.png
+│   │   └── Resume & Job Description input screen
+│   ├── SS2.png
+│   │   └── ATS score and skill matching output
+│   ├── SS3.png
+│   │   └── Resume suggestions and best job role
+│   └── architecture.png
+│       └── RAG system architecture diagram
+│
+├── .gitignore
+│   └── Files and folders ignored by Git
+│
+└── README.md
+    └── Project documentation
+
 
 ## 🛠️ Tech Stack
 
@@ -54,7 +101,20 @@ This system follows a **Retrieval-Augmented Generation (RAG)** pipeline:
 pip install -r requirements.txt
 python ingest_jobs.py
 streamlit run app.py
+
 ```
+---
+## 🔮 Future Enhancements
+
+- Structured JSON output parsing
+
+- Skill-wise ATS breakdown
+
+- Multiple resume comparison
+
+- Cloud deployment (AWS / Azure)
+
+- Authentication & user profiles
 
 ---
 
